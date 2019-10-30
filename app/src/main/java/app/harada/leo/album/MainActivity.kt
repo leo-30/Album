@@ -17,5 +17,29 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        imageView2.setOnClickListener {
+            intent.putExtra("image", R.drawable.ocean)
+            startActivity(intent)
+        }
+
+        imageView3.setOnClickListener {
+            intent.putExtra("image", R.drawable.portugal)
+            startActivity(intent)
+        }
+
+        imageView4.setOnClickListener {
+            intent.putExtra("image", R.drawable.ship)
+            startActivity(intent)
+        }
+
+        imageView5.setOnClickListener {
+            intent.putExtra("image", R.drawable.waterfall)
+            startActivity(intent)
+        }
+
+        imageView6.setOnClickListener {
+            intent.putExtra("image", R.drawable.yukata)
+            startActivity(intent)
+        }
     }
 }
